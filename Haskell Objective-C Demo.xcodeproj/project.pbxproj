@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091A017F10F5840F00F243E2 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 091A017E10F5840F00F243E2 /* Converter.m */; };
+		091A018510F5898600F243E2 /* ConverterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091A018410F5898600F243E2 /* ConverterController.m */; };
+		09B55C5810F5C840006BE14A /* libHSffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C5510F5C840006BE14A /* libHSffi.a */; };
+		09B55C5910F5C840006BE14A /* libHSrts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C5610F5C840006BE14A /* libHSrts.a */; };
+		09B55C5A10F5C840006BE14A /* libHSrtsmain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C5710F5C840006BE14A /* libHSrtsmain.a */; };
+		09B55C5F10F5C88B006BE14A /* HaskellConvert_stub.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C5E10F5C88B006BE14A /* HaskellConvert_stub.o */; };
+		09B55C6310F5C95B006BE14A /* libHSghc-6.12.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C6210F5C95B006BE14A /* libHSghc-6.12.1.a */; };
+		09B55C6710F5C9F4006BE14A /* libHSarray-0.3.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C6610F5C9F4006BE14A /* libHSarray-0.3.0.0.a */; };
+		09B55C6910F5CA17006BE14A /* libHSbase-4.2.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C6810F5CA17006BE14A /* libHSbase-4.2.0.0.a */; };
+		09B55C6D10F5CB39006BE14A /* libHSghc-prim-0.2.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C6C10F5CB39006BE14A /* libHSghc-prim-0.2.0.0.a */; };
+		09B55C7210F5CB8A006BE14A /* libHSinteger-gmp-0.2.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C7110F5CB8A006BE14A /* libHSinteger-gmp-0.2.0.0.a */; };
+		09B55C7A10F5CCF3006BE14A /* HaskellConvert.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B55C7910F5CCF3006BE14A /* HaskellConvert.o */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* Haskell_Objective_C_DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* Haskell_Objective_C_DemoAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		091A017D10F5840F00F243E2 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		091A017E10F5840F00F243E2 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
+		091A018310F5898600F243E2 /* ConverterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterController.h; sourceTree = "<group>"; };
+		091A018410F5898600F243E2 /* ConverterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterController.m; sourceTree = "<group>"; };
+		09B55C2810F5A53B006BE14A /* HaskellConvert_stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaskellConvert_stub.h; sourceTree = "<group>"; };
+		09B55C5510F5C840006BE14A /* libHSffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHSffi.a; path = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/libHSffi.a"; sourceTree = "<absolute>"; };
+		09B55C5610F5C840006BE14A /* libHSrts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHSrts.a; path = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/libHSrts.a"; sourceTree = "<absolute>"; };
+		09B55C5710F5C840006BE14A /* libHSrtsmain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHSrtsmain.a; path = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/libHSrtsmain.a"; sourceTree = "<absolute>"; };
+		09B55C5E10F5C88B006BE14A /* HaskellConvert_stub.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = HaskellConvert_stub.o; sourceTree = "<group>"; };
+		09B55C6210F5C95B006BE14A /* libHSghc-6.12.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSghc-6.12.1.a"; path = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/ghc-6.12.1/libHSghc-6.12.1.a"; sourceTree = "<absolute>"; };
+		09B55C6610F5C9F4006BE14A /* libHSarray-0.3.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSarray-0.3.0.0.a"; path = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/array-0.3.0.0/libHSarray-0.3.0.0.a"; sourceTree = "<absolute>"; };
+		09B55C6810F5CA17006BE14A /* libHSbase-4.2.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSbase-4.2.0.0.a"; path = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/base-4.2.0.0/libHSbase-4.2.0.0.a"; sourceTree = "<absolute>"; };
+		09B55C6C10F5CB39006BE14A /* libHSghc-prim-0.2.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSghc-prim-0.2.0.0.a"; path = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/ghc-prim-0.2.0.0/libHSghc-prim-0.2.0.0.a"; sourceTree = "<absolute>"; };
+		09B55C7110F5CB8A006BE14A /* libHSinteger-gmp-0.2.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSinteger-gmp-0.2.0.0.a"; path = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/integer-gmp-0.2.0.0/libHSinteger-gmp-0.2.0.0.a"; sourceTree = "<absolute>"; };
+		09B55C7910F5CCF3006BE14A /* HaskellConvert.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = HaskellConvert.o; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* Haskell_Objective_C_DemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haskell_Objective_C_DemoAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* Haskell_Objective_C_DemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Haskell_Objective_C_DemoAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Haskell_Objective_C_Demo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haskell_Objective_C_Demo_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Haskell_Objective_C_Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Haskell_Objective_C_Demo-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Haskell Objective-C Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haskell Objective-C Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				09B55C5810F5C840006BE14A /* libHSffi.a in Frameworks */,
+				09B55C5910F5C840006BE14A /* libHSrts.a in Frameworks */,
+				09B55C5A10F5C840006BE14A /* libHSrtsmain.a in Frameworks */,
+				09B55C5F10F5C88B006BE14A /* HaskellConvert_stub.o in Frameworks */,
+				09B55C6310F5C95B006BE14A /* libHSghc-6.12.1.a in Frameworks */,
+				09B55C6710F5C9F4006BE14A /* libHSarray-0.3.0.0.a in Frameworks */,
+				09B55C6910F5CA17006BE14A /* libHSbase-4.2.0.0.a in Frameworks */,
+				09B55C6D10F5CB39006BE14A /* libHSghc-prim-0.2.0.0.a in Frameworks */,
+				09B55C7210F5CB8A006BE14A /* libHSinteger-gmp-0.2.0.0.a in Frameworks */,
+				09B55C7A10F5CCF3006BE14A /* HaskellConvert.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* Haskell_Objective_C_DemoAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* Haskell_Objective_C_DemoAppDelegate.m */,
+				091A017D10F5840F00F243E2 /* Converter.h */,
+				091A017E10F5840F00F243E2 /* Converter.m */,
+				091A018310F5898600F243E2 /* ConverterController.h */,
+				091A018410F5898600F243E2 /* ConverterController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		09B55C5B10F5C845006BE14A /* GHC */ = {
+			isa = PBXGroup;
+			children = (
+				09B55C5510F5C840006BE14A /* libHSffi.a */,
+				09B55C5610F5C840006BE14A /* libHSrts.a */,
+				09B55C5710F5C840006BE14A /* libHSrtsmain.a */,
+				09B55C6210F5C95B006BE14A /* libHSghc-6.12.1.a */,
+				09B55C6610F5C9F4006BE14A /* libHSarray-0.3.0.0.a */,
+				09B55C6810F5CA17006BE14A /* libHSbase-4.2.0.0.a */,
+				09B55C6C10F5CB39006BE14A /* libHSghc-prim-0.2.0.0.a */,
+				09B55C7110F5CB8A006BE14A /* libHSinteger-gmp-0.2.0.0.a */,
+			);
+			name = GHC;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Haskell Objective-C Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Haskell Objective-C Demo */ = {
+			isa = PBXGroup;
+			children = (
+				09B55C5B10F5C845006BE14A /* GHC */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Haskell Objective-C Demo";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				09B55C7910F5CCF3006BE14A /* HaskellConvert.o */,
+				09B55C5E10F5C88B006BE14A /* HaskellConvert_stub.o */,
+				09B55C2810F5A53B006BE14A /* HaskellConvert_stub.h */,
+				256AC3F00F4B6AF500CF3369 /* Haskell_Objective_C_Demo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Haskell_Objective_C_Demo-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Haskell Objective-C Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Haskell Objective-C Demo" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Haskell Objective-C Demo";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Haskell Objective-C Demo";
+			productReference = 8D1107320486CEB800E47090 /* Haskell Objective-C Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Haskell Objective-C Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Haskell Objective-C Demo */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Haskell Objective-C Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* Haskell_Objective_C_DemoAppDelegate.m in Sources */,
+				091A017F10F5840F00F243E2 /* Converter.m in Sources */,
+				091A018510F5898600F243E2 /* ConverterController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Haskell_Objective_C_Demo_Prefix.pch;
+				INFOPLIST_FILE = "Haskell_Objective_C_Demo-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/ghc-6.12.1\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/array-0.3.0.0\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/base-4.2.0.0\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/ghc-prim-0.2.0.0\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/integer-gmp-0.2.0.0\"",
+				);
+				PRODUCT_NAME = "Haskell Objective-C Demo";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Haskell_Objective_C_Demo_Prefix.pch;
+				INFOPLIST_FILE = "Haskell_Objective_C_Demo-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/ghc-6.12.1\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/array-0.3.0.0\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/base-4.2.0.0\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/ghc-prim-0.2.0.0\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/integer-gmp-0.2.0.0\"",
+				);
+				PRODUCT_NAME = "Haskell Objective-C Demo";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/include/";
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GHC.framework/Versions/Current//**";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-liconv";
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-6.12.1/include/";
+				LIBRARY_SEARCH_PATHS = "/Library/Frameworks/GHC.framework/Versions/Current//**";
+				OTHER_LDFLAGS = "-liconv";
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Haskell Objective-C Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Haskell Objective-C Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
